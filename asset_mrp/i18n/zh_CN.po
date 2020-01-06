@@ -1,0 +1,158 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* asset_mrp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-edf679c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-18 10:09+0000\n"
+"PO-Revision-Date: 2020-01-06 19:40+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: asset_mrp
+#: model:ir.model,name:asset_mrp.model_asset_asset
+#: view:mrp.bom:asset_mrp.asset_mrp_bom_view
+#: view:mrp.workcenter:asset_mrp.asset_mrp_workcenter_view
+#: field:mrp.workcenter,asset_ids:0
+msgid "Asset"
+msgstr "资产"
+
+#. module: asset_mrp
+#: model:ir.ui.menu,name:asset_mrp.menu_asset_state
+msgid "Asset States"
+msgstr "资产状态"
+
+#. module: asset_mrp
+#: view:asset.asset:asset_mrp.assets_form_view_mrp
+#: model:ir.actions.act_window,name:asset_mrp.action_assets_mrp
+#: model:ir.ui.menu,name:asset_mrp.menu_maintenance_assets
+#: model:ir.ui.menu,name:asset_mrp.menu_maintenance_assets_assets
+#: view:mrp.bom:asset_mrp.asset_mrp_bom_view
+#: view:mrp.workcenter:asset_mrp.asset_mrp_workcenter_view
+msgid "Assets"
+msgstr "资产"
+
+#. module: asset_mrp
+#: model:ir.model,name:asset_mrp.model_mrp_bom
+msgid "Bill of Material"
+msgstr "BOM"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Black"
+msgstr "黑色"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Blue"
+msgstr "蓝色"
+
+#. module: asset_mrp
+#: field:asset.asset,manufacture_state_color:0
+msgid "Color"
+msgstr "颜色"
+
+#. module: asset_mrp
+#: view:mrp.bom:asset_mrp.asset_mrp_bom_view
+msgid "Components"
+msgstr "部件"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Cyan"
+msgstr "青色"
+
+#. module: asset_mrp
+#: view:mrp.workcenter:asset_mrp.asset_mrp_workcenter_view
+msgid "General Information"
+msgstr "常规信息"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Green"
+msgstr "绿色"
+
+#. module: asset_mrp
+#: view:asset.asset:asset_mrp.assets_form_view_mrp
+msgid "Info"
+msgstr "信息"
+
+#. module: asset_mrp
+#: view:mrp.bom:asset_mrp.asset_mrp_bom_view
+#: view:mrp.workcenter:asset_mrp.asset_mrp_workcenter_view
+msgid "Location"
+msgstr "位置"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Magenta"
+msgstr "桃红"
+
+#. module: asset_mrp
+#: model:ir.actions.act_window,name:asset_mrp.action_management_assets_mrp
+#: model:ir.ui.menu,name:asset_mrp.menu_maintenance_assets_management
+msgid "Manage states"
+msgstr "管理状态"
+
+#. module: asset_mrp
+#: view:asset.asset:asset_mrp.assets_kanban_view_mrp
+msgid "Manufacturer:"
+msgstr "维护保养:"
+
+#. module: asset_mrp
+#: view:asset.asset:asset_mrp.assets_kanban_view_mrp
+msgid "Model:"
+msgstr "型号:"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Orange"
+msgstr "橙色"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Red"
+msgstr "红色"
+
+#. module: asset_mrp
+#: view:asset.asset:asset_mrp.assets_kanban_view_mrp
+msgid "Serial No:"
+msgstr "序列号:"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "SkyBlue"
+msgstr "天空蓝"
+
+#. module: asset_mrp
+#: view:asset.asset:asset_mrp.assets_form_view_mrp
+msgid "Warranty"
+msgstr "质保"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "White"
+msgstr "白色"
+
+#. module: asset_mrp
+#: model:ir.model,name:asset_mrp.model_mrp_workcenter
+msgid "Work Center"
+msgstr "工作中心"
+
+#. module: asset_mrp
+#: selection:asset.asset,manufacture_state_color:0
+msgid "Yellow"
+msgstr "黄色"
+
+#. module: asset_mrp
+#: field:mrp.bom,asset_ids:0
+msgid "unknown"
+msgstr "未知"
