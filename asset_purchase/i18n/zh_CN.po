@@ -1,0 +1,67 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* asset_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140125-002455\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-02 08:41+0000\n"
+"PO-Revision-Date: 2020-01-06 19:41+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: asset_purchase
+#: view:asset.asset:0
+msgid "Info"
+msgstr "信息"
+
+#. module: asset_purchase
+#: view:asset.asset:0
+msgid "Model:"
+msgstr "型号:"
+
+#. module: asset_purchase
+#: view:asset.asset:0
+#: model:ir.actions.act_window,name:asset_purchase.action_assets_purchase
+#: model:ir.ui.menu,name:asset_purchase.menu_maintenance_assets
+#: model:ir.ui.menu,name:asset_purchase.menu_maintenance_assets_assets
+msgid "Assets"
+msgstr "资产"
+
+#. module: asset_purchase
+#: model:ir.ui.menu,name:asset_purchase.menu_asset_state
+msgid "Asset States"
+msgstr "资产状态"
+
+#. module: asset_purchase
+#: view:asset.asset:0
+msgid "Manufacturer:"
+msgstr "维护保养:"
+
+#. module: asset_purchase
+#: model:ir.model,name:asset_purchase.model_asset_asset
+msgid "Asset"
+msgstr "资产"
+
+#. module: asset_purchase
+#: model:ir.actions.act_window,name:asset_purchase.action_management_assets_purchase
+#: model:ir.ui.menu,name:asset_purchase.menu_maintenance_assets_management
+msgid "Manage states"
+msgstr "管理状态"
+
+#. module: asset_purchase
+#: view:asset.asset:0
+msgid "Warranty"
+msgstr "质保"
+
+#. module: asset_purchase
+#: view:asset.asset:0
+msgid "Serial No:"
+msgstr "序列号:"
