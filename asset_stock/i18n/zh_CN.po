@@ -1,0 +1,133 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* asset_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140125-002455\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-01 09:45+0000\n"
+"PO-Revision-Date: 2020-01-06 19:41+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Blue"
+msgstr "蓝色"
+
+#. module: asset_stock
+#: field:asset.asset,warehouse_state_id:0 view:asset.state:0
+msgid "State"
+msgstr "状态"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Black"
+msgstr "黑色"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Yellow"
+msgstr "黄色"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Orange"
+msgstr "橙色"
+
+#. module: asset_stock
+#: view:asset.state:0
+msgid "Change color"
+msgstr "换个颜色"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "White"
+msgstr "白色"
+
+#. module: asset_stock
+#: view:asset.asset:0
+msgid "Serial No:"
+msgstr "序列号:"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Red"
+msgstr "红色"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Cyan"
+msgstr "青色"
+
+#. module: asset_stock
+#: view:asset.asset:0
+msgid "Info"
+msgstr "信息"
+
+#. module: asset_stock
+#: view:asset.asset:0
+msgid "Warranty"
+msgstr "质保"
+
+#. module: asset_stock
+#: view:asset.asset:0
+#: model:ir.actions.act_window,name:asset_stock.action_assets_stock
+#: model:ir.ui.menu,name:asset_stock.menu_maintenance_assets
+#: model:ir.ui.menu,name:asset_stock.menu_maintenance_assets_assets
+msgid "Assets"
+msgstr "资产"
+
+#. module: asset_stock
+#: model:ir.actions.act_window,name:asset_stock.action_asset_state
+#: model:ir.ui.menu,name:asset_stock.menu_asset_state
+msgid "Asset States"
+msgstr "资产状态"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Green"
+msgstr "绿色"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "SkyBlue"
+msgstr "天空蓝"
+
+#. module: asset_stock
+#: view:asset.asset:0
+msgid "Model:"
+msgstr "型号:"
+
+#. module: asset_stock
+#: field:asset.asset,warehouse_state_color:0
+msgid "Color"
+msgstr "颜色"
+
+#. module: asset_stock
+#: view:asset.asset:0
+msgid "Manufacturer:"
+msgstr "维护保养:"
+
+#. module: asset_stock
+#: model:ir.actions.act_window,name:asset_stock.action_management_assets
+#: model:ir.ui.menu,name:asset_stock.menu_maintenance_assets_management
+msgid "Manage states"
+msgstr "管理状态"
+
+#. module: asset_stock
+#: selection:asset.asset,warehouse_state_color:0
+msgid "Magenta"
+msgstr "桃红"
+
+#. module: asset_stock
+#: model:ir.model,name:asset_stock.model_asset_asset
+msgid "Asset"
+msgstr "资产"
