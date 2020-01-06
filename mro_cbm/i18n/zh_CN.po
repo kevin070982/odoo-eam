@@ -1,0 +1,299 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mro_cbm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-09 16:55+0000\n"
+"PO-Revision-Date: 2020-01-06 19:52+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: mro_cbm
+#: field:mro.cbm.rule,active:0
+msgid "Active"
+msgstr "激活"
+
+#. module: mro_cbm
+#: model:ir.model,name:mro_cbm.model_asset_asset field:mro.gauge,asset_id:0
+msgid "Asset"
+msgstr "资产"
+
+#. module: mro_cbm
+#: field:mro.cbm.rule,category_id:0
+msgid "Asset Category"
+msgstr "资产类别"
+
+#. module: mro_cbm
+#: model:ir.model,name:mro_cbm.model_mro_gauge
+msgid "Asset Gauges"
+msgstr "资产计量"
+
+#. module: mro_cbm
+#: view:mro.gauge:mro_cbm.mro_gauge_form_view
+msgid "Attach"
+msgstr "附加"
+
+#. module: mro_cbm
+#: model:mro.pm.parameter,name:mro_cbm.mro_cbm_parameter_1
+msgid "Bearing Temperature"
+msgstr "轴承温度"
+
+#. module: mro_cbm
+#: view:mro.cbm.replan:mro_cbm.view_replan_cbm_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: mro_cbm
+#: field:mro.cbm.replan,create_uid:0 field:mro.cbm.rule,create_uid:0
+#: field:mro.gauge,create_uid:0 field:mro.gauge.line,create_uid:0
+msgid "Created by"
+msgstr "创建者"
+
+#. module: mro_cbm
+#: field:mro.cbm.replan,create_date:0 field:mro.cbm.rule,create_date:0
+#: field:mro.gauge,create_date:0 field:mro.gauge.line,create_date:0
+msgid "Created on"
+msgstr "创建于"
+
+#. module: mro_cbm
+#: field:mro.gauge,date:0 field:mro.gauge.line,date:0
+msgid "Date"
+msgstr "日期"
+
+#. module: mro_cbm
+#: selection:mro.gauge,reading_type:0
+msgid "Direct"
+msgstr "直接"
+
+#. module: mro_cbm
+#: field:asset.asset,gauge_ids:0 view:mro.gauge:mro_cbm.mro_gauge_form_view
+#: field:mro.gauge,name:0 selection:mro.gauge,reading_type:0
+#: field:mro.gauge.line,gauge_id:0
+msgid "Gauge"
+msgstr "计量"
+
+#. module: mro_cbm
+#: view:mro.gauge.line:mro_cbm.gauge_history_search
+msgid "Gauge History Search"
+msgstr "计量历史搜索"
+
+#. module: mro_cbm
+#: view:asset.asset:mro_cbm.assets_form_view field:mro.gauge,gauge_line_ids:0
+msgid "Gauges"
+msgstr "计量"
+
+#. module: mro_cbm
+#: model:ir.actions.act_window,name:mro_cbm.action_gauges_logs
+#: model:ir.ui.menu,name:mro_cbm.menu_gauges_logs
+#: view:mro.gauge:mro_cbm.mro_gauge_log_tree_view
+msgid "Gauges Logs"
+msgstr "计量日志"
+
+#. module: mro_cbm
+#: model:ir.model,name:mro_cbm.model_mro_gauge_line
+msgid "History of Asset Gauge Reading"
+msgstr "资产计量表读数历史"
+
+#. module: mro_cbm
+#: field:mro.cbm.replan,id:0 field:mro.cbm.rule,id:0 field:mro.gauge,id:0
+#: field:mro.gauge.line,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: mro_cbm
+#: help:mro.cbm.rule,active:0
+msgid ""
+"If the active field is set to False, it will allow you to hide the PdM "
+"without removing it."
+msgstr "如果活动字段设置为False，则允许您隐藏PdM而不删除它。"
+
+#. module: mro_cbm
+#: view:mro.gauge:mro_cbm.mro_gauge_form_view
+#: view:mro.gauge:mro_cbm.mro_gauge_log_tree_view
+#: view:mro.gauge:mro_cbm.mro_gauge_tree_view
+msgid "Last Reading"
+msgstr "最后读数"
+
+#. module: mro_cbm
+#: field:mro.cbm.replan,write_uid:0 field:mro.cbm.rule,write_uid:0
+#: field:mro.gauge,write_uid:0 field:mro.gauge.line,write_uid:0
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: mro_cbm
+#: field:mro.cbm.replan,write_date:0 field:mro.cbm.rule,write_date:0
+#: field:mro.gauge,write_date:0 field:mro.gauge.line,write_date:0
+msgid "Last Updated on"
+msgstr "上次更新于"
+
+#. module: mro_cbm
+#: model:ir.model,name:mro_cbm.model_mro_order
+msgid "Maintenance Order"
+msgstr "维保订单"
+
+#. module: mro_cbm
+#: model:ir.model,name:mro_cbm.model_mro_task
+msgid "Maintenance Task"
+msgstr "维保任务"
+
+#. module: mro_cbm
+#: view:mro.cbm.rule:mro_cbm.mro_cbm_rule_form_view
+#: field:mro.cbm.rule,is_limit_max:0 field:mro.cbm.rule,limit_max:0
+msgid "Max Limit"
+msgstr "最大限度"
+
+#. module: mro_cbm
+#: view:asset.asset:mro_cbm.assets_form_view
+msgid "Meters"
+msgstr "米"
+
+#. module: mro_cbm
+#: view:mro.cbm.rule:mro_cbm.mro_cbm_rule_form_view
+#: field:mro.cbm.rule,is_limit_min:0 field:mro.cbm.rule,limit_min:0
+msgid "Min Limit"
+msgstr "最小限度"
+
+#. module: mro_cbm
+#: field:mro.cbm.rule,name:0
+msgid "Name"
+msgstr "名字"
+
+#. module: mro_cbm
+#: view:mro.gauge:mro_cbm.mro_gauge_tree_view
+msgid "New Reading"
+msgstr "新的读数"
+
+#. module: mro_cbm
+#: field:mro.gauge,new_value:0
+msgid "New value"
+msgstr "新的值"
+
+#. module: mro_cbm
+#: field:mro.cbm.rule,parameter_id:0 view:mro.gauge:mro_cbm.mro_gauge_form_view
+msgid "Parameter"
+msgstr "参数"
+
+#. module: mro_cbm
+#: model:ir.actions.act_window,name:mro_cbm.action_cbm_rules
+#: view:mro.cbm.rule:mro_cbm.mro_cbm_rule_form_view
+#: view:mro.cbm.rule:mro_cbm.mro_cbm_rule_tree_view
+msgid "PdM Rule"
+msgstr "PdM规则"
+
+#. module: mro_cbm
+#: model:ir.ui.menu,name:mro_cbm.menu_cbm_rules
+msgid "PdM Rules"
+msgstr "PdM规则"
+
+#. module: mro_cbm
+#: model:ir.model,name:mro_cbm.model_mro_cbm_rule
+msgid "Predictive Maintenance Rule"
+msgstr "预测维修规则"
+
+#. module: mro_cbm
+#: field:mro.gauge,parent_ratio_id:0
+msgid "Ratio to Source"
+msgstr "来源比例"
+
+#. module: mro_cbm
+#: selection:mro.gauge,state:0
+msgid "Reading"
+msgstr "读数"
+
+#. module: mro_cbm
+#: view:mro.gauge:mro_cbm.mro_gauge_log_tree_view
+#: view:mro.gauge:mro_cbm.mro_gauge_tree_view
+msgid "Reading Date"
+msgstr "计数日期"
+
+#. module: mro_cbm
+#: view:asset.asset:mro_cbm.assets_form_view
+#: model:ir.actions.act_window,name:mro_cbm.open_reading_log
+#: view:mro.gauge:mro_cbm.mro_gauge_log_tree_view
+#: view:mro.gauge.line:mro_cbm.mro_gauge_line_tree_view
+msgid "Reading History"
+msgstr "计数历史"
+
+#. module: mro_cbm
+#: field:mro.gauge,reading_type:0
+msgid "Reading Type"
+msgstr "计数类型"
+
+#. module: mro_cbm
+#: field:mro.gauge.line,value:0
+msgid "Reading Value"
+msgstr "计数数值"
+
+#. module: mro_cbm
+#: model:mro.task,name:mro_cbm.mro_task_6
+msgid "Replace bearings"
+msgstr "更换轴承"
+
+#. module: mro_cbm
+#: model:ir.actions.act_window,name:mro_cbm.action_replan_cbm
+#: model:ir.model,name:mro_cbm.model_mro_cbm_replan
+#: model:ir.ui.menu,name:mro_cbm.menu_replan_cbm
+#: view:mro.cbm.replan:mro_cbm.view_replan_cbm_wizard
+msgid "Replan PdM"
+msgstr "重播PdM"
+
+#. module: mro_cbm
+#: selection:mro.gauge,state:0
+msgid "Setup"
+msgstr "设置"
+
+#. module: mro_cbm
+#: field:mro.gauge,parent_gauge_id:0
+msgid "Source Gauge"
+msgstr "源量计量"
+
+#. module: mro_cbm
+#: field:mro.gauge,state:0
+msgid "Status"
+msgstr "状态"
+
+#. module: mro_cbm
+#: field:mro.cbm.rule,task_id:0
+msgid "Task"
+msgstr "任务"
+
+#. module: mro_cbm
+#: view:mro.cbm.rule:mro_cbm.mro_cbm_rule_form_view
+msgid "Trigger"
+msgstr "触发"
+
+#. module: mro_cbm
+#: field:mro.cbm.rule,parameter_uom:0 field:mro.gauge,gauge_uom:0
+msgid "Unit of Measure"
+msgstr "单位"
+
+#. module: mro_cbm
+#: model:ir.actions.act_window,name:mro_cbm.action_update_gauges
+#: model:ir.ui.menu,name:mro_cbm.menu_update_gauges
+#: view:mro.gauge:mro_cbm.mro_gauge_tree_view
+msgid "Update Gauges"
+msgstr "更新计量"
+
+#. module: mro_cbm
+#: field:mro.gauge,value:0
+msgid "Value"
+msgstr "值"
+
+#. module: mro_cbm
+#: field:mro.gauge,view_line_ids:0
+msgid "unknown"
+msgstr "未知"
+
+#. module: mro_cbm
+#: model:product.uom,name:mro_cbm.uom_mro_degree
+msgid "°C"
+msgstr "°C"
